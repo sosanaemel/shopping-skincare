@@ -1,0 +1,29 @@
+[2025-07-28 08:09:48] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:212)
+[stacktrace]
+#0 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(137): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(124): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(681): Illuminate\\Log\\LogManager->driver()
+#3 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(317): Illuminate\\Log\\LogManager->error('RecursiveDirect...', Array)
+#4 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(278): Illuminate\\Foundation\\Exceptions\\Handler->reportThrowable(Object(ValueError))
+#5 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(497): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ValueError))
+#6 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ValueError))
+#7 C:\\wamp64\\www\\shopping_skincare\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\wamp64\\\\www\\\\s...')
+#9 {main}
+"} 
+[2025-07-28 08:09:48] laravel.ERROR: RecursiveDirectoryIterator::__construct(): Argument #1 ($directory) cannot be empty {"exception":"[object] (ValueError(code: 0): RecursiveDirectoryIterator::__construct(): Argument #1 ($directory) cannot be empty at C:\\wamp64\\www\\shopping_skincare\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:43)
+[stacktrace]
+#0 C:\\wamp64\\www\\shopping_skincare\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(43): RecursiveDirectoryIterator->__construct('', 4096)
+#1 C:\\wamp64\\www\\shopping_skincare\\vendor\\symfony\\finder\\Finder.php(793): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 C:\\wamp64\\www\\shopping_skincare\\vendor\\symfony\\finder\\Finder.php(674): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(286): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\wamp64\\www\\shopping_skincare\\public\\index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\shopping_skincare\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\wamp64\\\\www\\\\s...')
+#12 {main}
+"} 
